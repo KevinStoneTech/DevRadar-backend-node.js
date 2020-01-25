@@ -24,4 +24,4 @@ app.use(routes);
 //Banco de dados usado é o MongoDB. (Não-relacional) - Otimo para aplicações que não exija muito relacionamento.
 
 
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
